@@ -1,6 +1,6 @@
 branches:
   only:
-  - blog
+  - myblog
 
 language: node_js
 

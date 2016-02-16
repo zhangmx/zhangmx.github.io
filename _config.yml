@@ -7,8 +7,8 @@ title: zhangmx's blog
 subtitle:
 description:
 author: zhang mingxing
-language:zh-Hans
-timezone:
+language: zh-Hans
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -68,6 +68,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:git
-  repo:
-      github: git@github.com:zhangmx/zhangmx.github.io.git,master
+  type: git
+  repo: https://github.com/zhangmx/zhangmx.github.io.git
+  branch: master
