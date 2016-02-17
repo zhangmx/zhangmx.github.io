@@ -60,10 +60,115 @@ time_format: HH:mm:ss
 per_page: 10
 pagination_dir: page
 
+
+# Creative Commons 4.0 International License.
+# http://creativecommons.org/
+# Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
+creative_commons: by-nc-sa
+#creative_commons:
+
+# ---------------------------------------------------------------
+# Third Party Services Settings
+# ---------------------------------------------------------------
+
+# MathJax Support
+mathjax:
+
+
+# Swiftype Search API Key
+#swiftype_key:
+
+# Baidu Analytics ID
+baidu_analytics: 482d5e21b9fea2142bb4b6bd12b2d08f
+
+# Duoshuo ShortName
+duoshuo_shortname: 7buzou
+
+# Disqus
+# disqus_shortname: zhangmx
+
+# Share
+#jiathis:
+#add_this_id:
+
+# Share
+#duoshuo_share: true
+
+# Google Webmaster tools verification setting
+# See: https://www.google.com/webmasters/
+google_site_verification: _yNzrHPGXYa65o27fkpL3htgz2tq8P8GiHeb0ZdLYAo
+
+
+# Google Analytics
+google_analytics: UA-7076879-3
+
+
+# Make duoshuo show UA
+# user_id must NOT be null when admin_enable is true!
+# you can visit http://dev.duoshuo.com get duoshuo user id.
+duoshuo_info:
+  ua_enable: true
+  admin_enable: false
+  user_id: 0
+  #admin_nickname: ROOT
+
+
+# Facebook SDK Support.
+# https://github.com/iissnan/hexo-theme-next/pull/410
+facebook_sdk:
+  enable: false
+  app_id:       #<app_id>
+  fb_admin:     #<user_id>
+  like_button:  #true
+  webmaster:    #true
+
+
+# Show number of visitors to each article.
+# You can visit https://leancloud.cn get AppID and AppKey.
+leancloud_visitors:
+  enable: false
+  app_id: #<app_id>
+  app_key: #<app_key>
+
+
+# Tencent analytics ID
+# tencent_analytics:
+
+# ---------------------------------------------------------------
+# Menu Settings
+# ---------------------------------------------------------------
+
+# When running hexo in a subdirectory (e.g. domain.tld/blog)
+# Remove leading slashes ( "/archives" -> "archives" )
+menu:
+  home: /
+  #categories: /categories
+  #about: /about
+  archives: /archives
+  tags: /tags
+  #commonweal: /404.html
+
+
+# Enable/Disable menu icons.
+# Icon Mapping:
+#   Map a menu item to a specific FontAwesome icon name.
+#   Key is the name of menu item and value is the name of FontAwsome icon.
+#   When an question mask icon presenting up means that the item has no mapping icon.
+menu_icons:
+  enable: true
+  # Icon Mapping.
+  home: home
+  about: user
+  categories: th
+  tags: tags
+  archives: archive
+  commonweal: heartbeat
+
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
