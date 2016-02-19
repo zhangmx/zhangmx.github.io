@@ -17,6 +17,7 @@ cd zhangmx.github.io
 npm install hexo-cli -g
 npm install
 ```
+<!--more-->
 
 创建一篇新博文：
 
@@ -72,7 +73,9 @@ travis-ci 的坑整理
 next 主题修订
 
 
+### 菜单坑
 
+教程和wiki等文档上说在_config.yml下去掉menu下对应的注释,就会显示对应的菜单,但是没说是根目录下还是主题(theme)目录下的,其实主题目录下的那个_config.yml也起着作用,而且会覆盖掉根目录里面的设置,要么就是取不到跟目录下的设置.
 
 
 
