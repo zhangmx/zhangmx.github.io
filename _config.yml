@@ -12,7 +12,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://7buzou.com
+url: https://7buzou.com/
 enforce_ssl: 7buzou.com
 root: /
 permalink: :year/:month/:day/:title/
@@ -166,10 +166,17 @@ menu_icons:
   commonweal: heartbeat
 
 
+sitemap:
+    path: sitemap.xml
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
+exclude_generator:
+plugins:
+- hexo-generator-feed
+- hexo-generator-sitemap
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
