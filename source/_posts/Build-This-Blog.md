@@ -1,7 +1,9 @@
 ---
 title: Build This Blog
 date: 2016-02-18 11:09:12
-tags: node git travis
+tags: [node,git,travis,hexo]
+categories: 其它
+toc: true
 ---
 
 # 虽然有点迟，不过总归是开始了
@@ -10,7 +12,7 @@ tags: node git travis
 
 如果没有node环境，最好用nvm安装node
 
-checkout 后
+clone checkout （**myblog分支**）后
 
 ```bash
 cd zhangmx.github.io
@@ -35,14 +37,33 @@ hexo s --debug
 
 由于采用了[travis-ci](https://travis-ci.org/)部署了自动发布（坑很多），只需要把本分支提交到github就可以了。
 
-打开浏览器，查看效果后，通过ide或者git命令直接提交改动。
+打开浏览器，查看效果后，通过ide或者git命令或者git桌面工具直接提交后push改动。
+
+## 编写流程
 
 
 ## 目标
 
-之所以费劲巴拉的这么折腾,就是为了学习git的使用,并理解若干概念,明白什么是什么,和什么该怎么用
+之所以费劲巴拉的这么折腾,就是为了学习git的使用,并理解若干概念,明白什么是什么,和什么该怎么用。涉及的内容：**域名服务管理**、**git操作**、**[MarkDown]()**、**[jekyll]()**、**[jekyllbootstrap]()**、**[gem]()**、**[bundle]()**、**[github-pages](https://pages.github.com/)**、**统计**、**评论**、**主题（[theme](https://hexo.io/themes)）**、**[自动化](https://travis-ci.org/)**。
 
-## TODO
+## 路有点弯
+搭建这个环境，
+
+## 简单讲讲遇到的坑
+
+
+
+### 有趣（要命）的git
+git的提交分为3步，这和svn非常不一样，是这样的：
+
+> git add file_name  
+> git commit  
+> git push
+
+我用的ide是[jetbrains系](https://www.jetbrains.com/)，git提交的时候有个复选框可以选择在提交的同时，上传（PUSH）。
+
+### SSL安全访问
+
 
 
 https
