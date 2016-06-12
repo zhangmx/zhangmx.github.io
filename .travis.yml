@@ -7,8 +7,8 @@ language: node_js
 sudo: false
 
 node_js:
-#- '5.4'
-- '0.12'
+- '5.4'
+#- '0.12'
 
 before_install:
 - openssl aes-256-cbc -K $encrypted_3db31b6eb68b_key -iv $encrypted_3db31b6eb68b_iv
