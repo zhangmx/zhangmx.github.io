@@ -2,7 +2,6 @@
 title: Node sass install stuck
 toc: true
 date: 2016-06-12 08:02:25
-tags:
 categories: Nodejs
 ---
 #node-sass install

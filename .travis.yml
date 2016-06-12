@@ -28,6 +28,7 @@ install:
 - npm install
 
 script:
+- hexo version
 - hexo clean
 - hexo g
 - hexo g
