@@ -11,6 +11,7 @@ categories: logstash
 
 logstash的[官方文档](https://www.elastic.co/guide/en/logstash/current/getting-started-with-logstash.html)和[中文文档](http://kibana.logstash.es/content/logstash/)中有遗漏的地方,在官方论坛里也提到文档的更新比较滞后,主要遇到的问题:
 
+<!--more-->
 
 使用包管理工具安装后,程序被安装在了/usr/share目录下,并没有在/usr/local下面,因此直接执行logstash会提示找不到这个命令.
 
@@ -36,7 +37,7 @@ sudo touch /etc/logstash/conf.d/empty.conf
 
 展示图:
 
-![命令执行情况](images/logstash.png)
+![命令执行情况](/images/logstash.png)
 
 
 如果报错了,可以去`/var/log/logstash/logstash-plain.log`这个文件中看一眼什么地方出错了.

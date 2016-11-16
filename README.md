@@ -30,3 +30,11 @@ hexo s --debug
 由于采用了travis-ci部署了自动发布（坑很多），只需要把本分支提交到github就可以了。
 
 打开浏览器，查看效果后，通过ide或者git命令直接提交改动。
+
+鱿鱼jekyll升级导致vendors目录无法访问,本地部署环境的时候,需要在.deploy_git目录下添加一个.nojekyll的文件
+
+内容为:
+
+```
+!vendors/*
+```
